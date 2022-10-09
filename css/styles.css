@@ -1,11 +1,44 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    font-weight: 500;
+}
+
 a {
     text-decoration: none;
 }
 
-.header {
-    align-items: center;
-    gap: 93px;
-    flex-direction: row;
-    padding: 25px 0 24px 0;
-    display: flex;
+a:hover {
+    color: rgba(33, 150, 243, 1);
 }
+
+.buttons {
+    text-align: center;
+    cursor:pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+.buttons:active {
+    color: rgba(33, 150, 243, 1);
+}
+
+.button {
+    background: rgba(245, 244, 250, 1);
+}
+ .logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+ }
+
+ .blue-text {
+    color: #2196F3;
+ }
+
+ .header-info {
+    color: #757575;
+ }
