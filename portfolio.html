@@ -8,31 +8,23 @@
     <link href="./css/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <section class="logo">
-            <a href="http://127.0.0.1:5500/index.html"><b class="blue-text">Web</b>Studio</a>
+            <a href="index.html"><b class="blue-text">Web</b>Studio</a>
         </section>
-        <nav>
             <ul>
-                <li><a href="">Agencja</a></li>
-                <li class="blue-text"><a href="http://127.0.0.1:5500/portfolio.html">Portfolio</a></li>
-                <li><a href="">Kontakty</a></li>
+                <li><a href="#">Agencja</a></li>
+                <li class="blue-text"><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="#">Kontakty</a></li>
             </ul>
-        </nav>
-        <section class="header-info">
-            <ul>
-                <li><a href="emailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+            <ul >
+                <li><a href="emailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
+                <li><a href="tel:+48111111111" class="contact">+48 111 111 111</a></li>
             </ul>
-        </section>
     </header>
 
     <main>
@@ -53,8 +45,8 @@
                      height="294"
                      alt="Technocrack"
                     >
-                    <h4><a href="">Technocrack</a></h4>
-                    <p>Strona internetowa</p>
+                    <h4><a href="#" class="product-header">Technocrack</a></h4>
+                    <p class="product-text">Strona internetowa</p>
                 </li>
                 <li>
                     <img 
@@ -63,8 +55,8 @@
                      height="294" 
                      alt="Grafika New Orlean vs Golden Star"
                     >
-                    <h4><a href="">Grafika New Orlean vs Golden Star</a></h4>
-                    <p>Dizajn</p>
+                    <h4><a href="#" class="product-header">Grafika New Orlean vs Golden Star</a></h4>
+                    <p class="product-text">Dizajn</p>
                 </li>
                 <li>
                     <img 
@@ -73,8 +65,8 @@
                      height="294" 
                      alt="Restauracja Seafood"
                     >
-                    <h4><a href="">Restauracja Seafood</a></h4>
-                    <p>Aplikacja</p>
+                    <h4><a href="#" class="product-header">Restauracja Seafood</a></h4>
+                    <p class="product-text">Aplikacja</p>
                 </li>
                 <li>
                     <img 
@@ -83,8 +75,8 @@
                      height="294" 
                      alt="Projekt Prime"
                     >
-                    <h4><a href="">Projekt Prime</a></h4>
-                    <p>Marketing</p>
+                    <h4><a href="#" class="product-header">Projekt Prime</a></h4>
+                    <p class="product-text">Marketing</p>
                 </li>
                 <li>
                     <img 
@@ -93,8 +85,8 @@
                      height="294" 
                      alt="Projekt Boxes"
                     >
-                    <h4><a href="">Projekt Boxes</a></h4>
-                    <p>Aplikacja</p>
+                    <h4><a href="#" class="product-header">Projekt Boxes</a></h4>
+                    <p class="product-text">Aplikacja</p>
                 </li>
                 <li>
                     <img 
@@ -103,8 +95,8 @@
                      height="294" 
                      alt="Inspiration has no Borders"
                     >
-                    <h4><a href="">Inspiration has no Borders</a></h4>
-                    <p>Strona Internetowa</p>
+                    <h4><a href="#" class="product-header">Inspiration has no Borders</a></h4>
+                    <p class="product-text">Strona Internetowa</p>
                 </li>
                 <li>
                     <img 
@@ -113,8 +105,8 @@
                      height="294" 
                      alt="Magazyn Limited Edition"
                     >
-                    <h4><a href="">Magazyn Limited Edition</a></h4>
-                    <p>Dizajn</p>
+                    <h4><a href="#" class="product-header">Magazyn Limited Edition</a></h4>
+                    <p class="product-text">Dizajn</p>
                 </li>
                 <li>
                     <img 
@@ -123,8 +115,8 @@
                      height="294" 
                      alt="Projekt LAB"
                     >
-                    <h4><a href="">Projekt LAB</a></h4>
-                    <p>Marketing</p>
+                    <h4><a href="#" class="product-header">Projekt LAB</a></h4>
+                    <p class="product-text">Marketing</p>
                 </li>
                 <li>
                     <img 
@@ -133,8 +125,8 @@
                      height="294" 
                      alt="Growing Business"
                     >
-                    <h4><a href="">Growing Business</a></h4>
-                    <p>Aplikacja</p>
+                    <h4><a href="#" class="product-header">Growing Business</a></h4>
+                    <p class="product-text">Aplikacja</p>
                 </li>
             </ul>     
         </section>
@@ -144,11 +136,13 @@
         <section class="logo">
             <h4><b class="blue-text">Web</b>Studio</h4>
         </section>
-        <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-        <ul>
-            <li><a href="emailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-        </ul>
+        <section class="footer">
+            <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+            <ul>
+                <li><a href="emailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+            </ul>
+        </section>
     </footer>
     
 </body>
