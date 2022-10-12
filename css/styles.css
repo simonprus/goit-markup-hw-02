@@ -4,14 +4,12 @@ body {
     color: #212121;
     font-weight: 500;
 }
-
-a {
+.link-no-underline {
     text-decoration: none;
 }
-a:hover {
-    color: rgba(33, 150, 243, 1);
+.link-no-underline:hover {
+    color: #2196F3;
 }
-
 .buttons {
     text-align: center;
     cursor:pointer;
@@ -21,35 +19,35 @@ a:hover {
     line-height: 26px;
 }
 .buttons:active {
-    color: rgba(33, 150, 243, 1);
+    color: #2196F3;
 }
 
 .button {
-    background: rgba(245, 244, 250, 1);
+    background: #F5F4FA;
 }
- .logo {
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
- }
+}
 
- .blue-text {
+.blue-text {
     color: #2196F3;
- }
+}
 
- .header-info {
+.header-info {
     color: #757575;
- }
+}
 
- .footer {
+.footer {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
- }
+}
 .header {
     font-weight: 500;
     font-size: 14px;
@@ -57,7 +55,7 @@ a:hover {
     letter-spacing: 0.02em;
 }
 .contact {
-    color: rgba(117, 117, 117, 1);
+    color: #757575;
     text-decoration: none;
 }
 .product-header {
@@ -65,14 +63,14 @@ a:hover {
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    color: rgba(33, 33, 33, 1);
+    color: #212121;
 }
 .product-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    color: rgba(117, 117, 117, 1);
+    color: #757575;
 }
 .center-text {
     font-weight: 900;
@@ -81,7 +79,6 @@ a:hover {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /* color: white;*/
 }
 .center-button {
     background: #2196F3;
