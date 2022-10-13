@@ -89,7 +89,7 @@ body {
 }
 .center-button {
     background: var(--main-blue);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px var(--second-black);
     border-radius: 4px;
 }
 .lorem-main {
